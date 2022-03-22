@@ -164,7 +164,7 @@ header img {
     .wrapper {
         margin-bottom: 30px;
         width: 355px;
-        height: 200px;
+        height: 220px;
     }
 
     header {
@@ -187,12 +187,7 @@ header img {
         justify-content: center;
     }
 
-    .container-a {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
     #container-b a {
-        margin-top: 35px;
+        margin-top: 30px;
     }
 }
