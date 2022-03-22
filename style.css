@@ -23,6 +23,7 @@ header img {
     width: 8rem;
     border-radius: 9999px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .header-container h1 {
@@ -75,10 +76,13 @@ header img {
     margin-bottom: 20px;
 }
 
+/**/
+
 .container { 
     display: flex; 
     justify-content: center; 
     color: white;
+    margin-bottom: 15px;
 }
 
 .container .wrapper:not(:last-child) {
@@ -126,8 +130,23 @@ header img {
     background: #2563eb;
 }
 
+/**/
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#wrapper:not(:last-child) {
+    margin-right: 20px;
+}
+
+/**/
+
 @media (max-width: 750px) {
-    .container {
+    .container,
+    .container-2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -138,10 +157,14 @@ header img {
         margin-right: 0;
     }
 
+    #wrapper:not(:last-child) {
+        margin-right: 0;
+    }
+
     .wrapper {
         margin-bottom: 30px;
         width: 355px;
-        height: 250px;
+        height: 200px;
     }
 
     header {
@@ -162,5 +185,14 @@ header img {
     .icons {
         display: flex;
         justify-content: center;
+    }
+
+    .container-a {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #container-b a {
+        margin-top: 35px;
     }
 }
